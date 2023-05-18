@@ -1,20 +1,17 @@
 public class Main {
     public static void main(String[] args) {
 
-       int cont = 0;
-       do{
-           cont++;
-           System.out.println(cont);
-       }while(cont < 10);
+        Pessoa adao = new Pessoa();
+        Pessoa eva = new Pessoa();
 
-       int contador = 0;
-       while(contador < 10){
-           contador++;
-           System.out.println(contador);
-       }
+        // definição do formato
+        adao.nome = "Adão";
+        adao.sobrenome = "silva";
 
-       for(int x = 0; x<10; x++){
-            System.out.println(x);
-       }
+        eva.nome = "Eva";
+        eva.sobrenome = "silva";
+
+        adao.Falar("ola eva");
+        eva.Falar("ola querido");
     }
 }
