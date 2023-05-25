@@ -3,8 +3,11 @@ public class Pessoa {
         String nome;
         String sobrenome;
 
-        public void Falar(String fala){
-            System.out.println(fala);
+        public void falar(){
+            System.out.println("falei");
+        }
+        public String falar(String volume){
+            return "falaei " + volume;
         }
 
 }

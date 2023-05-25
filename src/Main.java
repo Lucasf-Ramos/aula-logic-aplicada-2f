@@ -11,7 +11,18 @@ public class Main {
         eva.nome = "Eva";
         eva.sobrenome = "silva";
 
-        adao.Falar("ola eva");
-        eva.Falar("ola querido");
+        adao.falar();
+        eva.falar();
+
+        //criar mais objetos
+        Pessoa qualquer = new Pessoa();
+
+        // declarar objeto pessoa
+        Pessoa rainha;
+        rainha = new Pessoa();
+        rainha.nome = "Tina";
+        rainha.sobrenome="Tunner";
+
+        System.out.println( rainha.falar("alto"));
     }
 }
