@@ -24,5 +24,7 @@ public class Main {
         rainha.sobrenome="Tunner";
 
         System.out.println( rainha.falar("alto"));
+
+        rainha.comer();
     }
 }

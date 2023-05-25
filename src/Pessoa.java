@@ -1,6 +1,6 @@
-public class Pessoa {
+public class Pessoa extends Animal{
 
-        String nome;
+
         String sobrenome;
 
         public void falar(){
@@ -8,6 +8,9 @@ public class Pessoa {
         }
         public String falar(String volume){
             return "falaei " + volume;
+        }
+        public void comer(){
+            System.out.print("pessoa comeu");
         }
 
 }
